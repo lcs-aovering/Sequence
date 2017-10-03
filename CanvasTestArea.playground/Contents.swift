@@ -22,7 +22,7 @@ import PlaygroundSupport
 // Create a new canvas
 let canvas = Canvas(width: 600, height: 500)
 // Color of Sky to blue
-canvas.fillColor = Color.init(hue: 200, saturation: 50, brightness: 100, alpha: 100)
+canvas.fillColor = Color.init(hue: 200, saturation: 60, brightness: 100, alpha: 100)
 canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 600, height: 500)
 // Sun rays in yellow
 canvas.lineColor = Color.init(hue: 55, saturation: 100, brightness: 100, alpha: 100)
